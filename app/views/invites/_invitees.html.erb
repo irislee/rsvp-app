@@ -1,0 +1,4 @@
+<h3>Invitees</h3>
+<% invites.each do |invite| %>
+  <%= invite.name %> | <%= attendee_list(invite) %><br />
+<% end %>
